@@ -11,5 +11,6 @@ button.onClick=function(){
     var span=document.getElementById("count");
     span.innerHTML=counter.toString();
 };
+alert("counter="+counter);
 
 
